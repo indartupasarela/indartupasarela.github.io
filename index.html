@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>INDART(U)</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="font-bold"><img src="assets/img/logo.png" class="h-[1.5em]"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Sarrera</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Zer da INDART(U)?</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Proiektuak</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Taldea</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#kontakto" class="nav__link">Kontaktua</a>
+                        </li>
+                    </ul>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/7.png" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Pasarelak</span>
+                        <h1 class="home__data-title">Herriak <b> jantzi ditzagun,</b> <br> bizitza galdu gabe</h1>
+                        <a href="#kontakto" class="bg-[#AB0505] text-white font-bold opacity-85 py-4 px-12 rounded-full">Kontaktatu!</a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid ml-0 lg:ml-[10em] flex lg:flex-row flex-col sm:flex-col sm:items-center sm:justify-center">
+                    <div class="about__data px-[10%] lg:px-0">
+                        <h2 class="section__title about__title">Zer da indartu?</h2>
+                        <p class="about__description">
+                            Moda-ekitaldiak sortu genituen, erakusleiho gisa, diseinatzaileei eta 
+                            haien diseinuei (eta saltokiei) ikusgarritasuna emateko. Diseinatzaileekin 
+                            loturak sortuz eta haien arazoak ulertuz, administrazio publikoarekin harremanetan 
+                            jartzen gara, kasu honetan udalekin, eta ekitaldi horiek sortzea lortzen 
+                            dugu. Izan ere, gazte ekintzaileak garenez, diseinatzaile txikien egoera 
+                            eta saltzeko duten zailtasuna ulertzen ditugu.
+                        </p>
+                    </div>
+
+                    <div class="about__img px-[10%] lg:px-0 flex flex-col lg:flex-row">
+                        <div class="about__img-overlay">
+                            <div class="flex flex-col">
+                                <img src="assets/img/9.png" alt="" class="lg:h-[10em] h-auto mb-[1.2em]">
+                                <img src="assets/img/8.png" alt="" class="lg:h-[10em] h-auto">
+                            </div>
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/lucia.png" alt="" class="about__img-two hidden lg:block">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Gure Proiektuak</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="flex justify-center lg:flex-row flex-col items-center ml-[-2em] lg:ml-0">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/4.1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Prestakuntzan...</h2>
+                                <span class="discover__description">Ermua</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="mx-[5em] my-8 lg:my-0">
+                            <div class="discover__card swiper-slide">
+                                <img src="assets/img/azul.jpg" alt="" class="discover__img">
+                                <div class="discover__data">
+                                    <h2 class="discover__title">Gure Altxorrak</h2>
+                                    <span class="discover__description">Orio</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/1.1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Prestakuntzan...</h2>
+                                <span class="discover__description">Beasain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MISION VISION VALORES ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Misioa, Bisioa eta Balioak</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="flex justify-center lg:flex-row flex-col items-center ml-[-2em] lg:ml-0">
+                        <!--==================== MISION ====================-->
+                        <div class="bg-[#BBB2A3] rounded-full h-[15em] w-[15em] flex flex-col">
+                            <div class="m-[2em]">
+                                <h1 class="text-center font-black text-2xl">Misioa</h1>
+                                    <p class="text-sm mt-[0.5em] text-center">Herrietako tokiko merkataritza eta disenatzaile 
+                                        txikien lanak ikustarazi nahi ditugu moda-ekitaldien bidez</p>
+                            </div>
+                        </div>
+
+                        <!--==================== VISION ====================-->
+                        <div class="bg-[#BBB2A3] rounded-full h-[15em] w-[15em] flex flex-col mx-[3em] lm:py-0 my-4">
+                            <div class="m-[2em]">
+                                <h1 class="text-center font-black text-2xl">Bisioa</h1>
+                                    <p class="text-sm mt-[0.5em] text-center">Herriko dendetara jende gehiago erakartzea, 
+                                        herrietan moda kultura sortzea eta disenatzaile txikiei aukera berriak sortzea</p>
+                            </div>
+                        </div>
+
+                        <!--==================== Balioak ====================-->
+                    <div class="flex justify-center">
+                        <div class="bg-[#BBB2A3] rounded-full h-[15em] w-[15em] flex flex-col">
+                            <div class="m-[2em]">
+                                <h1 class="text-center font-black text-2xl">Balioak</h1>
+                                    <ul class="text-sm mt-[1em] text-center">
+                                        <li>Herriko diseinatzaileei babesa eman</li>
+                                        <li>Prozesua gardena</li>
+                                        <li>Gertutasuna</li>
+                                        <li>Elegantzia</li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Taldea</h2>
+                    <div class="flex lg:flex-row flex-col items-center justify-center"> <!--place__container container grid ml-[-0.05em] lg:ml-0-->
+                        <!--==================== PLACES CARD 1 ====================-->
+                            <a href="https://www.linkedin.com/in/luc%C3%ADa-gorostidi-echeverr%C3%ADa-2870b0205/" target="_blank">
+                                <div class="place__card w-[12em] mx-4 my-4">
+                                    <img src="assets/img/lucia_taldea.jpg" alt="" class="place__img">
+                                    
+                                    <div class="place__content">
+                                        <span class="place__rating">
+                                            <span class="place__rating-number"></span>
+                                        </span>
+
+                                        <div class="place__data">
+                                            <h3 class="place__title">Lucía</h3>
+                                            <span class="place__subtitle">CTO</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="button button--flex place__button hidden lg:block">
+                                        <i class="ri-arrow-right-line"></i>
+                                    </button>
+                                </div>
+                            </a>
+
+                            <!--==================== PLACES CARD 2 ====================-->
+                            <a href="https://www.linkedin.com/in/rosa-atorrasagasti-salegui-930a57211" target="_blank">
+                                <div class="place__card w-[12em] mx-4 my-4">
+                                    <img src="assets/img/rosa_taldea.jpg" alt="" class="place__img">
+                                    
+                                    <div class="place__content">
+                                        <span class="place__rating">
+                                            <span class="place__rating-number"></span>
+                                        </span>
+
+                                        <div class="place__data">
+                                            <h3 class="place__title">Rosa</h3>
+                                            <span class="place__subtitle">CEO</span>
+                                        </div>
+                                    </div>
+
+                                    <button class="button button--flex place__button hidden lg:block">
+                                        <i class="ri-arrow-right-line"></i>
+                                    </button>
+                                </div>
+                            </a>
+
+                        <!--==================== PLACES CARD 4 ====================-->
+                        <a href="https://www.linkedin.com/in/rosa-atorrasagasti-salegui-930a57211/" target="_blank">
+                            <div class="place__card w-[12em] mx-4 my-4">
+                                <img src="assets/img/niko.jpg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                        <span class="place__rating-number"></span>
+                                    </span>
+
+                                    <div class="place__data">
+                                        <h3 class="place__title">Niko</h3>
+                                        <span class="place__subtitle">....</span>
+                                    </div>
+                                </div>
+
+                                <button class="button button--flex place__button hidden lg:block">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </div>
+                        </a>
+
+                        <!--==================== PLACES CARD 3 ====================-->
+                        <a href="https://www.linkedin.com/in/rosa-atorrasagasti-salegui-930a57211/" target="_blank">
+                            <div class="place__card w-[12em] mx-4 my-4">
+                                <img src="assets/img/itsaso.jpg" alt="" class="place__img">
+                                
+                                <div class="place__content">
+                                    <span class="place__rating">
+                                        <span class="place__rating-number"></span>
+                                    </span>
+
+                                    <div class="place__data">
+                                        <h3 class="place__title">Itsaso</h3>
+                                        <span class="place__subtitle">....</span>
+                                    </div>
+                                </div>
+
+                                <button class="button button--flex place__button hidden lg:block">
+                                    <i class="ri-arrow-right-line"></i>
+                                </button>
+                            </div>
+                        </a>
+
+                    </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <div class="bg-[#BBB2A3] h-[15em] flex flex-col justify-center px-[2em]" id="kontakto">
+                <h2 class="section__title subscribe__title">Jarri gurekin harremanetan</h2>
+                <p class="subscribe__description">Gurekin kontaktuan jartzeko idatzi <strong>indartu.pasarela@gmail.com</strong>
+                    emailera edo deitu <strong>+34 674371059</strong> zenbakira.
+                </p>
+            </div>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="">
+                    <div class="">
+                        <h3 class="text-2xl font-bold">Indart(u)</h3>
+                        <p class="footer__description">Herriak <b> jantzi ditzagun,</b> bizitza <br>galdu gabe
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer__lefts">
+                    <p class="footer__copy">&#169; 2023 KHAOS. All rigths reserved.</p>
+                    <div class="footer__terms">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
